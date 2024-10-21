@@ -8,7 +8,7 @@ Use the package manager [npm] to use LogiTrack locally.
 - Open your terminal and run the following commands
 
 ```bash
-git clone https://github.com/Saurabh-2607/Logirack2.git
+git clone clone https://github.com/Saurabh-2607/LogiTrack.git
 ```
 ```bash
 cd frontend
