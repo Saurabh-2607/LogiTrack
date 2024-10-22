@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import ProductForm from './components/AddProducts'; 
-import ProductCard from './components/ProductCard';
+import ProductForm from './Components/AddProducts'; 
+import ProductCard from './Components/ProductCard';
 import HomePage from './Components/HomePage';
 
 function App() {
