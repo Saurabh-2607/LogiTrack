@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import ProductForm from './components/AddProducts'; 
-import ProductCard from './components/ProductCard'; 
-import HomePage from './components/HomePage'; // Import the new HomePage component
+import ProductCard from './components/ProductCard';
+import HomePage from './Components/HomePage';
 
 function App() {
   const handleProductSubmit = async (product) => {
@@ -34,9 +34,9 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<HomePage />} /> {/* Updated route for HomePage */}
-          <Route path="/products" element={<ProductCard />} /> {/* Route for viewing products */}
-          <Route path="/addproducts" element={<ProductForm onSubmit={handleProductSubmit} />} /> {/* Route for adding products */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/products" element={<ProductCard />} />
+          <Route path="/addproducts" element={<ProductForm onSubmit={handleProductSubmit} />} />
         </Routes>
       </div>
     </Router>
