@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema({
   },
   stock: {
     type: Number,
-    required: trcleue,
+    required: true,
   },
   imageUrl: {
     type: String,

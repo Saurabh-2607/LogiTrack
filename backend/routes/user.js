@@ -1,3 +1,4 @@
+const dotenv = require('dotenv');
 const express = require('express');
 const { register, login, getUserProfile, updateUserProfile } = require('../controllers/userController');
 const auth = require('../middlewares/auth');
