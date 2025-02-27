@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@media (min-width: 0px) {
+  :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --header-background: #f8f9fa;
+    --footer-background: #f8f9fa;
+  }
+}
+
+.dark-theme {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --header-background: #1f1f1f;
+  --footer-background: #1f1f1f;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--header-background);
+}
+
+footer {
+  background-color: var(--footer-background);
+}
+
+
+
